@@ -1,0 +1,13 @@
+<litepal>
+    <!--数据库名称-->
+    <dbname value="daily_weather" />
+
+    <version value="1" />
+
+    <list>
+        <mapping class="com.dailyweather.android.db.Province" />
+        <mapping class="com.dailyweather.android.db.City" />
+        <mapping class="com.dailyweather.android.db.County" />
+    </list>
+
+</litepal>
